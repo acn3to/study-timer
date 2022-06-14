@@ -1,9 +1,10 @@
 import React from 'react';
+import Button from './components/Buttton';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+      <Button />
     </div>
   );
 }
