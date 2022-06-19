@@ -7,9 +7,10 @@ import { useEffect, useState } from 'react';
 
 interface Props {
   selected: ITask | undefined;
+  finishTask: () => void;
 }
 
-export default function Stopwatch({ selected }: Props) {
+export default function Stopwatch({ selected, finishTask }: Props) {
   const [time, setTime] = useState<number>();
 
   useEffect(() => {
@@ -18,13 +19,23 @@ export default function Stopwatch({ selected }: Props) {
     }
   }, [selected]);
 
+  function regressive(counter: number = 0) {
+    setTimeout(() => {
+      if (counter > 0) {
+        setTime(counter - 1);
+        return regressive(counter - 1);
+      }
+      finishTask();
+    }, 1000);
+  }
+
   return (
     <div className={style.stopwatch}>
       <p className={style.title}>Choose one card and start the stopwatch</p>
       <div className={style.clockWrapper}>
         <Clock time={time} />
       </div>
-      <Button>Start</Button>
+      <Button onClick={() => regressive(time)}>Start</Button>
     </div>
   );
 }
