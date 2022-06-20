@@ -36,7 +36,7 @@ function Form({ setTasks }: Props) {
           value={task}
           onChange={(event) => setTask(event.target.value)}
           id="task"
-          placeholder="What we're going to study today?"
+          placeholder="Type a subject"
           required
         />
       </div>
