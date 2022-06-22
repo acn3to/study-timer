@@ -15,7 +15,7 @@
 ## Demo 
 
 <div align="center">
-<img size="150%" src="https://media.giphy.com/media/X4A6kocNd3h0g4LTvI/giphy.gif" alt="Demo Gif">
+<img width="55%" src="https://media.giphy.com/media/X4A6kocNd3h0g4LTvI/giphy.gif" alt="Demo Gif">
 </div>
 
 ## Built with
