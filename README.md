@@ -10,7 +10,7 @@
 
 ## Deploy
 
-[Vercel](https://studies-timer-pearl.vercel.app/)
+[Vercel](https://study-timer.vercel.app/)
 
 ## Demo 
 
