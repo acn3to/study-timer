@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to study-timer 👋</h1>
+<h1 align="center">Study Timer 🕗</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.0-blue.svg?cacheSeconds=2592000" />
   <a href="#" target="_blank">
@@ -8,15 +8,12 @@
 
 > A study timer, built with React and TypeScript.
 
-## Deploy
-
-[Vercel](https://study-timer.vercel.app/)
-
-## Demo 
 
 <div align="center">
 <img width="55%" src="https://media.giphy.com/media/X4A6kocNd3h0g4LTvI/giphy.gif" alt="Demo Gif">
-</div>
+</div> 
+
+### ✨ [Demo](https://study-timer.vercel.app/)
 
 ## Built with
 
